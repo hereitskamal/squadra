@@ -1,29 +1,30 @@
-# Node.js
-node_modules/
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-
-# Environment Variables
-.env
-
-# Build directories
-dist/
-build/
-*.tgz
-
-# Vue.js
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-
-# Log files
-logs/
+# Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# OS generated files
+node_modules
 .DS_Store
-Thumbs.db
+dist
+dist-ssr
+coverage
+*.local
 
-# Coverage directory used by tools like istanbul
-coverage/
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
